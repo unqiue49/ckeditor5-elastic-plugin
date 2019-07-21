@@ -1,0 +1,1 @@
+# ckeditor5-elastic-plugin
