@@ -1,0 +1,37 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^12.2.1",
+    "@ckeditor/ckeditor5-engine": "^13.2.1",
+    "@ckeditor/ckeditor5-ui": "^13.0.2",
+    "lodash-es": "^4.17.10"
+  },
+  "deprecated": false,
+  "description": "Elastoc plugin for CKEditor 5",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-utils": "^13.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.7.1"
+  },
+  "eslintIgnore": [
+    "src/lib/**",
+    "packages/**"
+  ],
+  "files": [
+    "lang",
+    "src"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "name": "ckeditor5-elastic-plugin",
+  "scripts": {
+    "lint": "eslint --quiet '**/*.js'"
+  },
+  "version": "0.1.0"
+}
