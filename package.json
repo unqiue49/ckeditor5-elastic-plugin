@@ -7,7 +7,7 @@
     "lodash-es": "^4.17.10"
   },
   "deprecated": false,
-  "description": "Elastoc plugin for CKEditor 5",
+  "description": "Elastic plugin for CKEditor 5",
   "devDependencies": {
     "@ckeditor/ckeditor5-utils": "^13.0.1"
   },
