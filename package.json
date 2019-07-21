@@ -1,4 +1,10 @@
 {
+  "author": {
+    "name": "unique49"
+  },
+  "repository": {
+    "url": "https://github.com/unqiue49/ckeditor5-elastic-plugin"
+  },
   "bundleDependencies": false,
   "dependencies": {
     "@ckeditor/ckeditor5-core": "^12.2.1",
@@ -34,5 +40,5 @@
   "scripts": {
     "release": "release-it"
   },
-  "version": "0.1.0"
+  "version": "0.2.1"
 }
