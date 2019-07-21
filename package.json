@@ -9,7 +9,8 @@
   "deprecated": false,
   "description": "Elastic plugin for CKEditor 5",
   "devDependencies": {
-    "@ckeditor/ckeditor5-utils": "^13.0.1"
+    "@ckeditor/ckeditor5-utils": "^13.0.1",
+    "release-it": "^12.3.3"
   },
   "engines": {
     "node": ">=8.0.0",
@@ -31,7 +32,7 @@
   },
   "name": "ckeditor5-elastic-plugin",
   "scripts": {
-    "lint": "eslint --quiet '**/*.js'"
+    "release": "release-it"
   },
   "version": "0.1.0"
 }
