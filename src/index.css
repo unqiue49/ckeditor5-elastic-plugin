@@ -1,0 +1,16 @@
+.ck-image {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.ck-image .ck-label {
+    display: inline;
+    padding-left: 10px;
+}
+
+.ck-list-image {
+    overflow: auto;
+    min-width: 200px;
+    max-height: 400px;
+    --ck-tooltip-arrow-size: none;
+}
